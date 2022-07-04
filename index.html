@@ -12,15 +12,15 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <!-- CSS próprio -->
     <link rel="stylesheet" href="style.css">
-        <!-- icones bootstrap -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- icones bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <!-- favicon -->
      <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     
     <title>Açougue do Futuro</title>
 
 </head>
-<body class="">
+<body>
     <header class="bg-principal">
         <nav class="navbar navbar-expand-lg ">
             <div class="container">
@@ -58,7 +58,7 @@
     </header>
       <!-- FIM navbar -->
     <!-- Carousel -->
-    <main id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <main id="carouselExampleControls" class="carousel slide bg-light" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <!-- <img src="img/banner-1.png" class="d-block w-100" alt="..."> -->
@@ -93,14 +93,14 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </main>
+    </main>
       <!-- FIM carousel -->
      <!-- Cards Produtos -->
-     <section class="container">
+    <section class="container bg-light py-5 rounded shadow-lg">
       <div class="row">
         
         <div class="text-center border-bottom mb-4">
-          <h3 class="my-2 mt-5 fonte">Produtos</h3>
+          <h3 class="my-2 mt-5 fonte text-uppercase">Produtos</h3>
         </div>
 
         <div class="col-md-4 mt-2 mb-5">
@@ -200,11 +200,11 @@
       
      <!-- PARTE FELIPE -->
     <!-- Testemunhas -->
-    <section class="container px-4 py-5 align-end" id="featured-3">
-      <h3 class="pb-2 border-bottom text-center fonte">Testemunhas do Sucesso</h3>
+    <section class="container px-5 py-5 align-end bg-light rounded my-5 shadow-lg" id="featured-3">
+      <h3 class="pb-2 border-bottom text-center fonte text-uppercase">Testemunhas do Sucesso</h3>
 
-      <div class="row g-4 py-1 row-cols-1 row-cols-lg-4 mt-3">
-        <div class="feature col bg-white rounded-2 m-auto mb-3">
+      <div class="row g-4 py-1 row-cols-1 row-cols-lg-4 mt-3 ">
+        <div class="feature col bg-white rounded-2 m-auto mb-3 shadow-lg">
           <div class="text-center mt-3">
             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
               <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
@@ -216,7 +216,7 @@
               Talita, pessoa que falou comigo sempre muito solicita. Amei RECOMENDO</p>
         </div>
 
-        <div class="feature col bg-white rounded-2 m-auto mb-3">
+        <div class="feature col bg-white rounded-2 m-auto mb-3 shadow-lg">
           <div class="text-center mt-2 ">
             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
               <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
@@ -227,7 +227,7 @@
             <p class="text-center ">Posso dizer sem sobra de dúvidas que é foi uma das melhores empresas no quesito relacionamento com o cliente. Ótimos produtos e o principal, sem sofrimento animal</p>
         </div>
 
-        <div class="feature col bg-white rounded-2 m-auto mb-3">
+        <div class="feature col bg-white rounded-2 m-auto mb-3 shadow-lg">
           <div class="text-center mt-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
               <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
@@ -241,29 +241,38 @@
     </section>
 
           <!-- PARCEIROS -->
-    <section class="container marketing text-center my-5">
-      <h2 class="pb-4 border-bottom text-center fonte ">Parceiros</h2>
+    <section class="container marketing text-center my-5 py-5 bg-light rounded shadow-lg">
+      <h2 class="pb-4 border-bottom text-center fonte text-uppercase">Parceiros</h2>
         <!-- Three columns of text below the carousel -->
         <div class="row">
           <div class="col-lg-3 m-auto py-3">
-            <img src="img-parceiros/logo-fazenda-do-futuro.png" class="rounded" alt="logo fazenda do futuro">
+            <a href="https://www.fazendafuturo.io/?gclid=Cj0KCQjwn4qWBhCvARIsAFNAMihZYvhmQIyyVsvSCXbTckg9es5N2HCS844Ml0A-A58xcz2o7ZBMC0AaArP5EALw_wcB" alt="Fazenda Futuro" title="Acessa Fazenda Futuro">
+              <img src="img-parceiros/logo-fazenda-do-futuro.png" class="rounded" alt="logo fazenda do futuro">
+            </a>
           </div>
     
           <div class="col-lg-3 m-auto py-3">
-            <img src="img-parceiros/logo-proteina-da-terra.png" alt="logo empresa proteina da terra">
+            <a href="https://proteinadaterra.com.br/" alt="Proteina da terra" title="Acesse Proteina da Terra">
+               <img src="img-parceiros/logo-proteina-da-terra.png" alt="logo empresa proteina da terra">
+            </a>
           </div>
     
           <div class="col-lg-3 m-auto py-3">
-            <img src="img-parceiros/logo-verdalli.jpg" class="rounded" alt="logo da empresa verdalli">         
+            <a href="https://www.lojavegana.store/" alt="Verdali" title="Acesse Verdali">
+              <img src="img-parceiros/logo-verdalli.jpg" class="rounded" alt="logo da empresa verdalli">         
+            </a>
           </div>
              
           <div class="col-lg-3 m-auto py-3">
-            <img src="img-parceiros/logo-the-new.png" class="rounded" alt="logo da empresa the new">        
+            <a href="https://thenewfoods.com.br/" alt="The new" title="Acesse the new">
+              <img src="img-parceiros/logo-the-new.png" class="rounded" alt="logo da empresa the new">        
+            </a>
           </div>
         </div><!-- /.row -->
     </section>
+
       <!-- Footer -->
-      <div class="container-fluid bg-principal">
+      <!-- <div class="container-fluid bg-principal">
         <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-4 ">
           <div class="col ">
             <a href="/" class="d-flex align-items-center justify-content-lg-end   link-dark text-decoration-none ">
@@ -305,8 +314,89 @@
                 politica de privacidade</p>
               </a>
           </div>
-        </footer>
+        </footer> -->
       </div>
+
+      <!-- footer -->
+      <footer class="text-center text-lg-start text-muted bg-principal">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom container">
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span>Get connected with us on social networks:</span>
+          </div>
+          <!-- Left -->
+      
+          <!-- Right -->
+          <div>
+            <a href="https://api.whatsapp.com/send?phone=5511971411991&text=Ol%C3%A1%2C%20Tudo%20bem%3F%20%20Gostaria%20de%20ver%20a%20tabela%20de%20pre%C3%A7os" class="me-4 text-reset">
+              <i class="bi bi-whatsapp fs-3"></i>
+            </a>
+            <a href="https://www.instagram.com/acouguedofuturo/" class="me-5 text-reset">
+              <i class="bi bi-instagram fs-3"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        
+        </section>
+        <!-- Section: Social media -->
+      
+        <!-- Section: Links  -->
+        <section class="container">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>Company name
+                </h6>
+                <p>
+                  Here you can use rows and columns to organize your footer content. Lorem ipsum
+                  dolor sit amet, consectetur adipisicing elit.
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <p>
+                  Here you can use rows and columns to organize your footer content. Lorem ipsum
+                  dolor sit amet, consectetur adipisicing elit.
+                </p>
+              </div>
+              <!-- Grid column -->
+              
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 text-center">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">
+                  Contact
+                </h6>
+                <p>
+                  <address>
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:acouguedofuturo@gmail.com" class="text-reset">acouguedofuturo@gmail.com</a>
+                  </address>
+                </p>
+                <p><i class="fas fa-phone"></i> + 01 234 567 88</p>
+                <p><i class="fas fa-print"></i> + 01 234 567 89</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          Copyright © 2022 Açougue do Futuro
+          <a class="text-reset fw-bold" href="//politica.html">politica de privacidade</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
       <!-- Javascript Bootstrap -->
       <script src="js/bootstrap.bundle.js"></script>
     
